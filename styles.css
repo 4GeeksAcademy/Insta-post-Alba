@@ -1,0 +1,66 @@
+body{
+  
+  background-color: black;
+ 
+  
+}
+.post{
+  width: 355px;
+  height: 50px;
+  margin-left: 222px;
+  background-color: aliceblue;
+  border: 1px solid white;
+  margin-top: 25px;
+ 
+}
+.fa-solid fa-ellipsis-vertical{
+  display: flex;
+  flex-direction: row;
+  margin-left: 200;
+}
+.post:nth-child(3){
+  display: flex;
+  justify-content:right;
+}
+.icon{
+  justify-content: center;
+
+}
+.icon>p{
+ margin-right: 0px;
+}
+
+.imagen{
+  width: 300px;
+  height: 250;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  
+}
+.iconos{
+  width: 360px;
+  height: 50px;
+  background-color: aliceblue;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 0px;
+  
+}
+.iconos:nth-last-child(4) {
+display: flex;
+flex-direction: row;
+}
+.pie{
+  width: 360px;
+  height: 160px;
+  margin: auto;
+  background-color: aliceblue;
+  
+ 
+}
+.pie>p{
+  margin-top: 0px;
+}
