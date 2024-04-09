@@ -7,11 +7,19 @@ body{
 .post{
   width: 355px;
   height: 50px;
-  margin-left: 222px;
+  margin: auto;
   background-color: aliceblue;
   border: 1px solid white;
   margin-top: 25px;
  
+}
+.header{
+  margin: auto;
+  justify-content: space-between;
+}
+.puntos{
+ float: inline-end;
+ margin-right: 5px;
 }
 .fa-solid fa-ellipsis-vertical{
   display: flex;
@@ -23,12 +31,10 @@ body{
   justify-content:right;
 }
 .icon{
-  justify-content: center;
+  justify-content: space-between;
 
 }
-.icon>p{
- margin-right: 0px;
-}
+
 
 .imagen{
   width: 300px;
@@ -49,9 +55,18 @@ body{
   margin-bottom: 0px;
   
 }
-.iconos:nth-last-child(4) {
-display: flex;
-flex-direction: row;
+.fa-heart{
+  margin: 2px;
+}
+.fa-comment{
+  margin: 2px;
+}
+.fa-share{
+  margin: 2px;
+}
+.guard{
+  margin-left: auto;
+  margin-right: 5px;
 }
 .pie{
   width: 360px;
